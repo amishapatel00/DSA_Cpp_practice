@@ -1,2 +1,21 @@
-# DSA_Cpp_practice
-My journey of practicing Data Structures and Algorithms in C++ for coding interviews.
+# DSA C++ Practice
+
+This repository contains my solutions to Data Structures and Algorithms problems.
+
+Language: C++
+
+Platforms used:
+- LeetCode
+
+Goal:
+Improve problem solving skills and prepare for coding interviews.
+
+Topics covered:
+- Arrays
+- Strings
+- Recursion
+- Linked List
+- Stack
+- Queue
+- Trees
+- Binary Search
