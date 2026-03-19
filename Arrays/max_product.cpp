@@ -26,3 +26,23 @@ public:
 
     }
 };
+/*optimized
+  Time complexity: O(n)
+  Space complexity: O(1)*/
+  class Solution {
+public:
+    int maxProduct(vector<int>& nums) {
+        int maxpro=nums[0];
+        int minpro=nums[0];
+        int anspro=nums[0];
+        for(int i=1;i<nums.size();i++){
+            if(nums[i]<0){
+                swap(maxpro,minpro);
+            }
+            maxpro=max(nums[i],maxpro*nums[i]);
+            minpro=min(nums[i],minpro*nums[i]);
+            anspro=max(anspro,maxpro);
+        }
+        return anspro;
+    }
+};
