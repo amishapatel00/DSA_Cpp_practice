@@ -29,10 +29,12 @@ public:
 
             if (nums[mid] < nums[mid + 1]) {
                 st = mid + 1;  // go right
-            } else {
+            }
+             else
+             {
                 end = mid;     // go left (including mid)
             }
-        }
+        }  
         return st;
-    }
-};
+    } 
+}; 
